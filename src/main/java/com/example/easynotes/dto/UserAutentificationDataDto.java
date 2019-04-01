@@ -1,15 +1,14 @@
 package com.example.easynotes.dto;
 
 public class UserAutentificationDataDto {
-
     private String username;
-    private char[] password;
+    private String password;
 
     public UserAutentificationDataDto(){
 
     }
 
-    public UserAutentificationDataDto(String username, char[] password){
+    public UserAutentificationDataDto(String username, String password){
         this.username = username;
         this.password = password;
 
@@ -23,11 +22,11 @@ public class UserAutentificationDataDto {
         this.username = username;
     }
 
-    public char[] getPassword() {
+    public String getPassword() {
         return password;
     }
 
-    public void setPassword(char[] password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 }

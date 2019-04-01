@@ -6,9 +6,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
 @EnableJpaAuditing
-public class MovieTrackerApplication {
+public class PocketManagerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MovieTrackerApplication.class, args);
+		SpringApplication.run(PocketManagerApplication.class, args);
+
 	}
 }
